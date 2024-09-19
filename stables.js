@@ -7,4 +7,3 @@ console.log(horseName);
 console.log(horseAge);
 let isHorseInStable = false;
 console.log(isHorseInStable);
-
