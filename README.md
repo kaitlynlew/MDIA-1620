@@ -3,7 +3,7 @@
 Kaitlyn Lew
 ----------
 
-***CLASS01***
+***WEEK02***
 
 3-2-1's
 "Aha" Moments
@@ -25,7 +25,7 @@ Learnings from 3-2-1's
 - how to create a new folder in the terminal + how to delete it
 - how to navigate a specific document in one line
 ----------
-***CLASS02***
+***WEEK03***
 
 3-2-1's
 "Aha" Moments
