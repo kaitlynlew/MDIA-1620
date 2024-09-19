@@ -24,5 +24,3 @@ Learnings from 3-2-1's
 - how to create a new folder in the terminal + how to delete it
 - how to navigate a specific document in one line
 
-'github'
-
