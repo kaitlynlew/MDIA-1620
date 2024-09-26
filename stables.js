@@ -1,9 +1,8 @@
-console.log("horse!")
 
-let horseName = "Keeth"; // this is a comment
-horseName = "Peter";
-let horseAge = 73;
+let horseName = "Jamille";
 console.log(horseName);
+
+let horseAge = 19;
 console.log(horseAge);
 let isHorseInStable = false;
 console.log(isHorseInStable);
@@ -12,15 +11,16 @@ console.log(typeof 12345);
 console.log(typeof "12345");
 console.log(typeof false);
 
-console.log(typeof horseAge);
+
+//////// LESSON 4 LAB ////////
+
+let horseNickname = "Jam";
+console.log(horseNickname);
+
+let horseIntroduction =("This is my horse " + horseName + ", her nickname is " + horseNickname + "!");
+console.log(horseIntroduction)
 
 const STABLE_MONTHLY_FEE = 90;
-console.log (STABLE_MONTHLY_FEE);
+let moneySaved = (100 * 3)/10;
 
-let horseIntroduction = " is the name if my horse";
-let rentIntroduction = `It costs ${STABLE_MONTHLY_FEE} to board ${horseName}`;
-let stableIntroduction = "Welcom to " + horseName + "'s stable 🦄";
-console.log(stableIntroduction);
-console.log(rentIntroduction);
-console.log(horseName + horseIntroduction);
-
+console.log(`You will save + ${moneySaved} with a 10% discount!`);
