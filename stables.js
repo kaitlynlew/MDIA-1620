@@ -11,7 +11,7 @@ console.log(typeof "12345");
 console.log(typeof false);
 
 
-//////// LESSON 4 LAB ////////
+// LESSON-4 LAB 
 
 let horseNickname = "Jam";
 console.log(horseNickname);
@@ -32,7 +32,7 @@ if (isHorseInside) {
     console.log (`🦄 ${horseName} is outside`)
 }
 
-// LESSON 6 LAB
+// LESSON-6 LAB
 // Horse = [name, age, isInside, horseNickname]
 
 let horseOne = [horseName, horseAge, isHorseInside, horseNickname];
@@ -45,8 +45,6 @@ let areHorsesInside = [isHorseInside, false, true];
 
 
 // LAB 6
-//stables.js
-// - output intro for horses
 
 let horseIntro = `Welcome to my stables! There are currently ${horseNames.length} horses staying at my stables:`;
 console.log(horseIntro);
@@ -54,12 +52,20 @@ console.log(horseNames[0] + " is " + horseAges[0] + ", and prefers to go by " + 
 console.log(horseNames[1] + " is " + horseAges[1] + ", and prefers to go by " + horseNicknames[1] + ".")
 console.log(horseNames[2] + " is " + horseAges[2] + ", and prefers to go by " + horseNicknames[2] + ".")
 
-console.log(horseNames[0] + " and " + horseNames[2] + " are outside of my stables, but " + horseNames[1] + " is inside of my stables!");
+if (areHorsesInside[0]) {
+    console.log (`🦄 ${horseNames[0]} is inside`)
+} else {
+    console.log (`🦄 ${horseNames[0]} is outside`)
+}
 
+if (areHorsesInside[1]) {
+    console.log (`🐴 ${horseNames[1]} is inside`)
+} else {
+    console.log (`🐴 ${horseNames[1]} is outside`)
+}
 
-
-// READme
-// - 3 confusing things
-// - 3 things you have a solid understanding of
-// - analogies that you use to think about things (gif)
-
+if (areHorsesInside[2]) {
+    console.log (`🦗 ${horseNames[2]} is inside`)
+} else {
+    console.log (`🦗 ${horseNames[2]} is outside`)
+}
