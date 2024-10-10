@@ -38,3 +38,15 @@ Things that are still unclear
 2. How scary git actually is
 
 Feeling: *optimistic* :D
+----------
+***WEEK06***
+
+3 Confusing Things:
+- Remembering when to use certain brackets
+- When to use Comparison Operators
+- When to use Logical Operators
+
+3 Things Solid Understandings:
+1. Indexes concept
+2. How to use arrays witing if statements
+3. Conditional statements concept
