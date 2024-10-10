@@ -31,3 +31,35 @@ if (isHorseInside) {
 } else {
     console.log (`🦄 ${horseName} is outside`)
 }
+
+// LESSON 6 LAB
+// Horse = [name, age, isInside, horseNickname]
+
+let horseOne = [horseName, horseAge, isHorseInside, horseNickname];
+let horseTwo = ["Lucie", 7, false, "Cie"];
+
+let horseNames = [horseName, "Lucie", "Leanna"];
+let horseAges = [horseAge, 7, 13];
+let horseNicknames = [horseNickname, "Cie", "Anna"];
+let areHorsesInside = [isHorseInside, false, true];
+
+
+// LAB 6
+//stables.js
+// - output intro for horses
+
+let horseIntro = `Welcome to my stables! There are currently ${horseNames.length} horses staying at my stables:`;
+console.log(horseIntro);
+console.log(horseNames[0] + " is " + horseAges[0] + ", and prefers to go by " + horseNicknames[0] + ".")
+console.log(horseNames[1] + " is " + horseAges[1] + ", and prefers to go by " + horseNicknames[1] + ".")
+console.log(horseNames[2] + " is " + horseAges[2] + ", and prefers to go by " + horseNicknames[2] + ".")
+
+console.log(horseNames[0] + " and " + horseNames[2] + " are outside of my stables, but " + horseNames[1] + " is inside of my stables!");
+
+
+
+// READme
+// - 3 confusing things
+// - 3 things you have a solid understanding of
+// - analogies that you use to think about things (gif)
+
